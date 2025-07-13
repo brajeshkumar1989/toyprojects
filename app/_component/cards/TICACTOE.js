@@ -498,6 +498,13 @@ export function TICACTOE() {
 						{tickArray.every((val) => val !== '') && 'DRAW!'}
 					</Label>
 				)}
+
+				<Label
+					variant='outline'
+					className='w-full flex justify-right text-sm text-gray-500'
+				>
+					&#169; Brajesh Kumar
+				</Label>
 			</CardFooter>
 		</Card>
 	);
